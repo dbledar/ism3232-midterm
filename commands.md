@@ -2,6 +2,7 @@
 
 ## 1. Building the project
 The commands I typed to build this project, in order, were:
+
 **mkdir ~/ism3232/ism3232-midterm**: created the project folder
 
 **cd ~/ism3232/ism3232-midterm**: moved into the project folder
