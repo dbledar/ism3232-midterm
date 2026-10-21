@@ -3,16 +3,27 @@
 ## 1. Building the project
 The commands I typed to build this project, in order, were:
 **mkdir ~/ism3232/ism3232-midterm**: created the project folder
+
 **cd ~/ism3232/ism3232-midterm**: moved into the project folder
+
 **touch business_rules.py main.py**: created the two python files
+
 **touch commands.md README.md**: created the two markdown files
+
 **venv**: alias used to run python -m venv .venv quicker
+
 **activate**: alias used to run source .venv/bin/activate quicker
+
 **pip install ruff pytest**: installed pytest and ruff for the git ritual
+
 **pip freeze requirements.txt**: saved the files used in the virtual environment to a text file
+
 **git init**: initialized a new git session
+
 **git remote add origin https://github.com/dbledar/ism3232-midterm.git**: connected the current git session to the related github repository
+
 **echo '.venv/' > .gitignore && echo '__pycache__/' >> .gitignore**: made sure the virtual environment and cache of pytest runs don't get saved to the github repository
+
 **touch tests/__init__.py tests/test_business_rules.py**: setup the python files necessary for pytest to run during the git ritual
 
 ## 2. The virtual environment
