@@ -40,4 +40,4 @@ Running rg 'def ' returns 24 functions in tests/test_business_rules.py and 8 fun
 Running rg -l 'print' only returns main.py as the only Python file that contains print statements. business_rules.py do not contain any print statements because it is only meant to calculate and format, not display.
 
 ## 6. The commit history
-Running git log --oneline shows that prior to this final commit, there had been 6 other commits.
+Running git log --oneline shows that prior to this final final commit, there had been 7 other commits.

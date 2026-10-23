@@ -1,7 +1,7 @@
 # ISM3232 Midterm: Cloudstep Software
 
 - **Name:** Darian Peters
-- **Version:** 1.2.4
+- **Version:** 1.3.0
 - **Date:** 10/23/2026
 
 ## What This Program Does
@@ -65,6 +65,7 @@ The files in this repository are:
 - **commands.md**: Log of activity done in the terminal during the making of this project.
 - **main.py**: The primary executable python script that contains all records.
 - **tests**: Repository containing the aforementioned testing functions.
+- **eggman.jpg**: eggman
 
 ## AI Use Statement
 AI was not used at any time during this project.
