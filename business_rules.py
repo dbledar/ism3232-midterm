@@ -61,7 +61,8 @@ def total_licensed(orders: list) -> float:
 
 def largest_license(orders: list) -> str:
     """Returns the name of the company whose order has the
-    largest license total"""
+    largest license total. If the list passed through is empty,
+    return an empty string."""
     largest = 0.0
     company = ""
 

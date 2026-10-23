@@ -28,9 +28,16 @@ The commands I typed to build this project, in order, were:
 **touch tests/__init__.py tests/test_business_rules.py**: setup the python files necessary for pytest to run during the git ritual
 
 ## 2. The virtual environment
-Running which python3 in my terminal returns /home/drpet/ism3232/ism3232-midterm/.venv/bin/python3. This demonstrates that I am running in the virtual environment because the current python interpreter is listed as being located in the .venv file.
+Running which python3 returns /home/drpet/ism3232/ism3232-midterm/.venv/bin/python3. This demonstrates that I am running in the virtual environment because the current python interpreter is listed as being located in the .venv file.
 
 ## 3. The project structure
 Running tree -L 2 shows the entire project structure, including main.py, business_rules.py, commands.md, README.md, and the tests directory. The command does not display my Documents or Downloads folder. This is because these folders exist outside the scope of the ism3232-midterm folder. If I had run tree -L 2 from my home directory, I would've seen those folders.
 
 ## 4. Every function and test
+Running rg 'def ' returns 24 functions in tests/test_business_rules.py and 8 functions in business_rules.py
+
+## 5. Which files print
+Running rg -l 'print' only returns main.py as the only Python file that contains print statements. business_rules.py do not contain any print statements because it is only meant to calculate and format, not display.
+
+## 6. The commit history
+Running git log --oneline shows that prior to this final commit, there had been 6 other commits.
