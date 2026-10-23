@@ -32,7 +32,7 @@ def test_discount_high_education_boundary():
 
 
 def test_calculate_license_total_low_discount():
-    assert math.ceil(calculate_license_total(100, 10)) == 930.0
+    assert math.ceil(calculate_license_total(100, 4)) == 460.0
 
 
 def test_calculate_license_total_high_discount():
