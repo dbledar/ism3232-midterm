@@ -18,20 +18,20 @@ This program relies on six business rules:
 
 ## How to Run
 Input the following commands in your terminal, in order:
-
+```
 cd ~/ism3232-midterm
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements
 python3 main.py
-
+```
 ## How to Test
 Input the following commands in your terminal for testing:
-
+```
 ruff format .
 ruff check .
 pytest -v
-
+```
 There are currently 9 tests in test_business_rules.py that pytest runs when called. They are:
 1. **test_calculate_license_cost()**: Ensures that the calculate_license_cost() function works properly.
 2. **test_discount_low()**: Ensures that orders with less than 10 seats receive no discount.
